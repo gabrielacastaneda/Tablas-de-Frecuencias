@@ -1,13 +1,13 @@
 #Instalar librerías 
 install.packages("flextable")
 install.packages("readxl")
-install.packages("Tidyverse")
+install.packages("tidyverse")
 install.packages("wordcloud")
 
 ###cargar librerías
 library(readxl)
 library(flextable)
-library(Tidyverse)
+library(tidyverse)
 library(wordcloud)
 
 
