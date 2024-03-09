@@ -1,4 +1,16 @@
+#Instalar librerías 
+install.packages("flextable")
+install.packages("readxl")
+install.packages("Tidyverse")
+install.packages("wordcloud")
+
+###cargar librerías
 library(readxl)
+library(flextable)
+library(Tidyverse)
+library(wordcloud)
+
+
 articles <- read_excel("articles.xlsx")
 View(articles)
 
